@@ -8,13 +8,50 @@ body {
   height: 100%;
   background-image: url('../images/meric-dagli-487809-unsplash.jpg');
   background-size: cover;
-  background-position: 0 -600px;
+  background-position: 0 -0px;
+  background-repeat: no-repeat;
 }
 .nav {
   background-image: url('../images/nav-background.png');
   background-position: 0 -250px;
   transform: skewY(-8deg);
 }
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+  body {
+    background-position: 0 0px;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  body {
+    background-position: 0 -10px;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  body {
+    background-position: 0 -20px;
+  }
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  body {
+    background-position: 0 -30px;
+  }
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  body {
+    background-position: 0 -40px;
+  }
+}   */
+
+
 article,
 aside,
 details,

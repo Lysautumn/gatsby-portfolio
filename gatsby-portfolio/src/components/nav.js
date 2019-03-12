@@ -6,8 +6,8 @@ const Nav = ({ siteTitle }) => (
   <div
     className="nav"
     style={{
-      marginTop: `40px`,
-      width: `20%`,
+      marginTop: `-180px`,
+      width: `250px`,
       height: `100%`,
       float: `right`,
       borderRadius: `5% 0 0 5%`,

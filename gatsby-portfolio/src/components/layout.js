@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Nav siteTitle={data.site.siteMetadata.title} />
+        
         <div
           style={{
             margin: `0 auto`,
@@ -28,6 +28,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
         </div>
+        {/* <Nav siteTitle={data.site.siteMetadata.title} /> */}
       </>
     )}
   />

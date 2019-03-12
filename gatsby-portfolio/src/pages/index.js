@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div style={{marginLeft: `10%`, width: `30%`, display: `inline-block`}}>
       <Image />
       </div>
-      <div style={{marginLeft: `-10%`, display: `inline-block`}}>
+      <div style={{marginLeft: `-10%`, display: `inline-block`, color: `white`}}>
     
       <h1>Hey, I'm Ally</h1>
       
