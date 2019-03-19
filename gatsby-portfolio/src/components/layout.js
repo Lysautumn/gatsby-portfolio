@@ -43,7 +43,7 @@
 
 import React from "react";
 import { StaticQuery, graphql } from 'gatsby';
-import Nav from '../components/nav';
+import Nav from './nav';
 import './layout.css';
 
 const Layout = ({children}) => (

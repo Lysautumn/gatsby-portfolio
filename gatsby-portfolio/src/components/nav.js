@@ -56,11 +56,26 @@
 
 // export default Nav
 
+// This component handles the navigation
+
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Nav = ({siteTitle}) => (
-  <div>
-    {siteTitle}
+  <div className="nav">
+    <header className="navHeader">
+
+        <ul className="navList">
+          <li className="siteTitle"><Link
+                to="/">
+                  {siteTitle}
+                </Link>
+          </li>
+          <li className="links">About</li>
+          <li className="links">Contact</li>
+          <li className="links">Blog</li>
+        </ul>
+    </header>
   </div>
 )
 
