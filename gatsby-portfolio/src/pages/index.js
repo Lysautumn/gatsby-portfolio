@@ -29,12 +29,9 @@
 
 import React from 'react';
 import Layout from '../components/layout';
-import Nav from '../components/nav';
-
 
 const Index = () => (
   <Layout>
-    <Nav/>
     <div className="layoutDiv">
       This is my index
     </div>

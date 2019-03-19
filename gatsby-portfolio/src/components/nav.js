@@ -58,9 +58,9 @@
 
 import React from 'react';
 
-const Nav = () => (
+const Nav = ({siteTitle}) => (
   <div>
-    This is the navigation
+    {siteTitle}
   </div>
 )
 
