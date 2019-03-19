@@ -38,3 +38,16 @@
 // }
 
 // export default Layout
+
+// This component handles the layout of the app
+
+import React from "react";
+import './layout.css';
+
+const Layout = ({children}) => (
+  <div className="layoutDiv">
+    <main>{children}</main>
+  </div>
+)
+
+export default Layout;

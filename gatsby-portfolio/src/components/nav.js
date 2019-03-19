@@ -55,3 +55,13 @@
 // }
 
 // export default Nav
+
+import React from 'react';
+
+const Nav = () => (
+  <div>
+    This is the navigation
+  </div>
+)
+
+export default Nav;

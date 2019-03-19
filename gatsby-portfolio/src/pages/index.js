@@ -25,12 +25,21 @@
 
 // export default IndexPage
 
+// This component is the index/landing page of the site
+
 import React from 'react';
+import Layout from '../components/layout';
+import Nav from '../components/nav';
+
 
 const Index = () => (
-  <div>
-    Hello World!
-  </div>
+  <Layout>
+    <Nav/>
+    <div className="layoutDiv">
+      This is my index
+    </div>
+  </Layout>
+
 )
 
 export default Index;
