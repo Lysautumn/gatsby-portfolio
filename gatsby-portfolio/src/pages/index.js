@@ -29,11 +29,17 @@
 
 import React from 'react';
 import Layout from '../components/layout';
+import Image from "../components/image"
 
 const Index = () => (
   <Layout>
     <div className="layoutDiv">
-      This is my index
+      <Image/>
+      <div className="greeting">
+        <h1>Hey, I'm Ally</h1>
+        <p>I build awesome things with code</p>
+        <p>and teach others at Prime Digital Academy</p>
+      </div>
     </div>
   </Layout>
 
