@@ -9,8 +9,8 @@ const Nav = ({siteTitle}) => (
         <ul className="navList">
           <li><Link to="/" className="siteTitle">{siteTitle}</Link></li>
           <li className="links"><Link to="/about">About</Link></li>
-          <li className="links">Contact</li>
-          <li className="links">Blog</li>
+          <li className="links"><Link to="/contact">Contact</Link></li>
+          <li className="links"><Link to="/blog">Blog</Link></li>
         </ul>
     </header>
   </div>
