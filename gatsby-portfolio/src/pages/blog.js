@@ -6,8 +6,8 @@ import Layout from "../components/layout";
 export default ({ data }) => {
     return (
         <Layout>
-          <div>
-            <h1>Latest Blog Entries</h1>
+          <div className="contentSpacing">
+            <h1 className="headers">Latest Blog Entries</h1>
             <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
             {data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>

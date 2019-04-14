@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const Contact = () => (
   <Layout>
-    <div>
+    <div className="contentSpacing">
         <p>This is my contact page</p>
     </div>
   </Layout>

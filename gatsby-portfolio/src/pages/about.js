@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const About = () => (
   <Layout>
-    <div>
+    <div className="contentSpacing">
         <p>This is my about page</p>
     </div>
   </Layout>
