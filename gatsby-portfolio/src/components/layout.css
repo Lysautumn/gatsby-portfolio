@@ -47,12 +47,15 @@ body {
 
 .links {
   margin-top: 8px;
-  color: #F2F2F2;
 }
 
-.links:visited {
+.styledLinks {
   color: #F2F2F2;
   text-decoration: none;
+}
+
+.activeLinks {
+  text-decoration: underline;
 }
 
 .mainImage {
