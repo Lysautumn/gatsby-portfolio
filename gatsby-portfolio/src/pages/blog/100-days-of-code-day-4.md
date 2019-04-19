@@ -1,6 +1,7 @@
 ---
 title: "100 Days of Code - Day 4"
 date: "2019-04-16"
+excerpt: "Coding without Google: An Exercise in Trusting Myself"
 ---
 
 Hello world! 

@@ -1,6 +1,7 @@
 ---
 title: "100 Days of Code - Day 1"
 date: "2019-04-13"
+excerpt: "Let me introduce myself and the 100 Days of Code"
 ---
 
 Hello world! 

@@ -1,6 +1,7 @@
 ---
 title: "100 Days of Code - Day 2"
 date: "2019-04-14"
+excerpt: "GatsbyJS and Game of Thrones"
 ---
 
 Hello world! 

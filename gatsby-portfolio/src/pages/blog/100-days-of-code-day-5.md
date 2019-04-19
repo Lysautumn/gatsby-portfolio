@@ -1,6 +1,7 @@
 ---
 title: "100 Days of Code - Day 5"
 date: "2019-04-17"
+excerpt: "Chill"
 ---
 
 Hello world! 
