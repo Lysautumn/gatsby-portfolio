@@ -1,3 +1,5 @@
+// This component is for the about page
+
 import React from 'react';
 import Layout from '../components/layout';
 import { Button } from '@material-ui/core';

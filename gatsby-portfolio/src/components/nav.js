@@ -1,4 +1,4 @@
-// This component handles the navigation
+// This component handles the navigation bar
 
 import React from 'react';
 import { Link } from 'gatsby';

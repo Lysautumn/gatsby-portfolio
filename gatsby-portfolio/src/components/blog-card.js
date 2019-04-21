@@ -1,3 +1,5 @@
+// This component creates each of the cards for the blog post list
+
 import React from "react";
 import { Link } from "gatsby";
 

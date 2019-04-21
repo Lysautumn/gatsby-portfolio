@@ -1,3 +1,5 @@
+// This component is for the contact page
+
 import React, { Component } from 'react';
 import Layout from '../components/layout';
 import { TextField, Button } from '@material-ui/core';

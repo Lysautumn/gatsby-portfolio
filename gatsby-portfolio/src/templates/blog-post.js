@@ -1,8 +1,9 @@
+// This component is for the template for each blog post
+
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 
-// establish template for blog posts
 export default ({ data }) => {
     const post = data.markdownRemark
     return (
