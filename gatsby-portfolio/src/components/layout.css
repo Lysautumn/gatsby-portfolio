@@ -112,11 +112,31 @@ body {
 
 /* About Page */
 
-
 /* Contact Page */
+.contactContent {
+  display: flex;
+
+}
+
+.contactLinks {
+  width: 30%;
+}
+
 .contactForm {
   width: 70%;
-  margin: 0 auto;
+}
+
+.contactItem {
+  margin-bottom: 25px;
+}
+
+.contactItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactItem a:hover {
+  font-weight: bold;
 }
 
 /* Blog */
