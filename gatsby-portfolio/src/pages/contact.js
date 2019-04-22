@@ -31,7 +31,7 @@ class Contact extends Component {
             <p className="contactItem"><span class="lnr lnr-bubble"> </span><a target="_blank" href="https://www.twitter.com/allyautumnboyd">Twitter</a></p>
             <p className="contactItem"><span class="lnr lnr-picture"> </span><a target="_blank" href="https://www.dribbble.com/allyboyd">Dribbble</a></p>
           </div>
-          <form className="contactForm">
+          {/* <form className="contactForm">
             <TextField
               required
               id="contactFirstName"
@@ -63,7 +63,7 @@ class Contact extends Component {
               fullWidth
             />
             <Button style={styles.button} variant="contained">Submit</Button>
-          </form>
+          </form> */}
         </div>
       </div>
     </Layout>
