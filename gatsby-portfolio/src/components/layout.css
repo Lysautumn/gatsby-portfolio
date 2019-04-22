@@ -28,8 +28,10 @@ body {
 
 .mainTitle {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1.5em;
   color: rgb(240, 240, 240);
+  font-family: 'Cookie', cursive;
+  font-size: 52px;
 }
 
 .mainImage {
