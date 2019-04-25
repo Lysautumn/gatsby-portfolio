@@ -2,13 +2,13 @@
 
 import React, { Component } from 'react';
 import Layout from '../components/layout';
-import { TextField, Button } from '@material-ui/core';
+// import { TextField, Button } from '@material-ui/core';
 
-const styles = {
-  button: {
-    marginTop: '10px',
-  }
-}
+// const styles = {
+//   button: {
+//     marginTop: '10px',
+//   }
+// }
 
 class Contact extends Component {
   state = {
@@ -26,10 +26,10 @@ class Contact extends Component {
         <div className="contactContent">
           <div className="contactLinks">
             <p className="contactItem"><span class="lnr lnr-envelope"> </span><a href="mailto:alyssaboyd85@gmail.com">Email</a></p>
-            <p className="contactItem"><span class="lnr lnr-link"> </span><a target="_blank" href="https://www.linkedin.com/in/alyssaboyd">LinkedIn</a></p>
-            <p className="contactItem"><span class="lnr lnr-code"> </span><a target="_blank" href="https://www.github.com/lysautumn">GitHub</a></p>
-            <p className="contactItem"><span class="lnr lnr-bubble"> </span><a target="_blank" href="https://www.twitter.com/allyautumnboyd">Twitter</a></p>
-            <p className="contactItem"><span class="lnr lnr-picture"> </span><a target="_blank" href="https://www.dribbble.com/allyboyd">Dribbble</a></p>
+            <p className="contactItem"><span class="lnr lnr-link"> </span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssaboyd">LinkedIn</a></p>
+            <p className="contactItem"><span class="lnr lnr-code"> </span><a target="_blank" rel="noopener noreferrer" href="https://www.github.com/lysautumn">GitHub</a></p>
+            <p className="contactItem"><span class="lnr lnr-bubble"> </span><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/allyautumnboyd">Twitter</a></p>
+            <p className="contactItem"><span class="lnr lnr-picture"> </span><a target="_blank" rel="noopener noreferrer" href="https://www.dribbble.com/allyboyd">Dribbble</a></p>
           </div>
           {/* <form className="contactForm">
             <TextField
