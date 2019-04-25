@@ -4,7 +4,7 @@ import React from 'react';
 import Image from "../components/image";
 import { Button } from '@material-ui/core';
 import { Link } from 'gatsby';
-
+import "../components/layout.css";
 const styles = {
   button: {
     marginRight: '10px',
