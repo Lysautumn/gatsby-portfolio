@@ -2,13 +2,15 @@
 
 import React from 'react';
 import Layout from '../components/layout';
+import { FaLightbulb, FaPalette, FaCoffee } from 'react-icons/fa';
+import { IconContext } from "react-icons";
 // import { Button } from '@material-ui/core';
 
 const About = () => (
   <Layout>
     <div className="contentSpacing">
       <h1 className="headers">About Me</h1>
-      <h2><span class="lnr lnr-book"></span>Passionately Curious</h2>
+      <h2><IconContext.Provider value={{className: "icons"}}><FaLightbulb/></IconContext.Provider> Passionately Curious</h2>
       <p>I did not start my career as a Software Engineer. When I was young,
         I didn't think I was interested in, or good at, math and science. I earned
         an undergrad degree in Political Science (a topic I am still interested in)
@@ -25,14 +27,14 @@ const About = () => (
         learn. Working in Tech has given me an opportunity to continue learning all
         the time. With endless things to learn and constant growth, I have found a 
         way to be passionately curious in a career that I love.</p>
-      <h2><span class="lnr lnr-magic-wand"></span>Creative</h2>
+      <h2><IconContext.Provider value={{className: "icons"}}><FaPalette/></IconContext.Provider> Creative</h2>
       <p>In my free time, I like to do many things to fuel my creativity. Whether
         it's cooking, embroidery, painting, writing, or learning visual design, I
         enjoy finding new things to try.</p>
       <p>One thing I love about Tech is that I can blend together the challenges
         of logic and creativity. Blending these two things together allows me to
         create products I can be proud of.</p>
-      <h2><span class="lnr lnr-coffee-cup"></span>Quirky and Caffeinated</h2>
+      <h2><IconContext.Provider value={{className: "icons"}}><FaCoffee/></IconContext.Provider> Quirky and Caffeinated</h2>
       <p>More often than not, I can be found with a coffee or tea in hand. I worked
         as a barista for many years and love finding fun new coffee shops to visit.
         Know of any good ones? Let me know!</p> 

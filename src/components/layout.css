@@ -15,6 +15,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.icons {
+  vertical-align: -6%;
+}
+
 /* Landing Page */
 .contentBox {
   background-image: url('../images/meric-dagli-487809-unsplash.jpg');
@@ -126,13 +130,14 @@ body {
   width: 70%;
 }
 
-.contactItem {
+/* .contactItem {
   margin-bottom: 25px;
-}
+} */
 
 .contactItem a {
   text-decoration: none;
   color: black;
+  padding-bottom: -150px;
 }
 
 .contactItem a:hover {
@@ -183,3 +188,8 @@ body {
     display: none;
   }
 } 
+
+
+
+
+
