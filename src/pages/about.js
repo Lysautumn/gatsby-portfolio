@@ -47,14 +47,15 @@ const About = () => (
         Know of any good ones? Let me know!</p> 
       <p>The things I enjoy doing in my free time are wide-ranging. I enjoy playing 
         board games and some video games (recently, I've been playing Super Smash Bros 
-        on the Switch). I love watching documentaries and listening to podcasts. When the
+        on the Switch). I really enjoy reading, even though I don't always have a lot of
+        time to spend on it. I love watching documentaries and listening to podcasts. When the
         MN weather allows, I love to explore walking paths, find cool local businesses
         to support, and attend fun events like Art-a-Whirl, TC Pride Festival, and (of course)
         the MN State Fair. I recently got to see both Hamilton and Book of Mormon at
         the Orpheum Theatre. I performed in plays when I was younger, and still love to
         watch plays!
-      <HamiltonImage />
       </p>
+      <HamiltonImage />
     </div>
   </Layout>
 
