@@ -126,6 +126,28 @@ body {
   vertical-align: -8px;
 }
 
+.aboutLinks {
+  text-decoration: none;
+  color: rgb(66, 31, 102);
+}
+
+.aboutLinks:hover {
+  font-weight: bold;
+}
+
+.aboutMeImages {
+  margin: 0 auto;
+  box-shadow: 3px 3px 12px #888888; 
+}
+
+.crossStitchImage {
+  width: 300px;
+}
+
+.hamiltonImage {
+  width: 350px;
+}
+
 /* Contact Page */
 .contactContent {
   display: flex;

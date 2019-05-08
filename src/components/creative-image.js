@@ -13,11 +13,11 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const Image = () => (
+const CreativeImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "allyatthefair.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "lets-taco-bout-it.jpeg" }) {
           childImageSharp {
             fluid(maxWidth: 150) {
               ...GatsbyImageSharpFluid
@@ -26,7 +26,12 @@ const Image = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} className="mainImage"/>}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} className="aboutMeImages crossStitchImage"/>}
   />
 )
-export default Image
+export default CreativeImage;
+
+
+
+
+

@@ -2,9 +2,10 @@
 
 import React from 'react';
 import Layout from '../components/layout';
-import { FaLightbulb, FaPalette, FaCoffee } from 'react-icons/fa';
+import { FaLightbulb, FaPalette, FaCoffee, FaChevronRight } from 'react-icons/fa';
 import { IconContext } from "react-icons";
-// import { Button } from '@material-ui/core';
+import CreativeImage from "../components/creative-image";
+import HamiltonImage from "../components/hamilton-image";
 
 const About = () => (
   <Layout>
@@ -27,19 +28,33 @@ const About = () => (
         learn. Working in tech has given me an opportunity to continue learning all
         the time. With endless things to learn and constant growth, I have found a 
         way to be passionately curious in a career that I love.</p>
+        <p>Check out what I've been working on lately:</p>
+        <a className="aboutLinks" rel="noopener noreferrer" target="_blank" href="https://www.github.com/lysautumn"><IconContext.Provider value={{className: "icons"}}><FaChevronRight></FaChevronRight></IconContext.Provider>GitHub</a>
       <h2 className="aboutHeaders"><IconContext.Provider value={{className: "icons"}}><FaPalette/></IconContext.Provider> Creative</h2>
       <p>In my free time, I like to do many things to fuel my creativity. Whether
         it's cooking, embroidery, painting, writing, or learning visual design, I
         enjoy finding new things to try.</p>
-      <p>One thing I love about Tech is that I can blend together the challenges
+      <p>Here is a cross-stitch piece that I made for a friend of mine:</p>
+      <CreativeImage />
+      <p>One thing I love about tech is that I can blend together the challenges
         of logic and creativity. Blending these two things together allows me to
         create products I can be proud of.</p>
+      <p>When I want to practice visual design, I work on challenges from <a className="aboutLinks" rel="noopener noreferrer" target="_blank" href="https://www.dailyui.co/">Daily UI</a>. Check out my work:</p>
+      <a className="aboutLinks" rel="noopener noreferrer" target="_blank" href="https://www.dribbble.com/allyboyd"><IconContext.Provider value={{className: "icons"}}><FaChevronRight></FaChevronRight></IconContext.Provider>Dribbble</a>
       <h2 className="aboutHeaders"><IconContext.Provider value={{className: "icons coffeeCup"}}><FaCoffee/></IconContext.Provider> Quirky and Caffeinated</h2>
       <p>More often than not, I can be found with a coffee or tea in hand. I worked
         as a barista for many years and love finding fun new coffee shops to visit.
         Know of any good ones? Let me know!</p> 
-      <p>My interests are wide-ranging: board/video games, Star Wars and documentaries
-        are just a few of them!</p>
+      <p>The things I enjoy doing in my free time are wide-ranging. I enjoy playing 
+        board games and some video games (recently, I've been playing Super Smash Bros 
+        on the Switch). I love watching documentaries and listening to podcasts. When the
+        MN weather allows, I love to explore walking paths, find cool local businesses
+        to support, and attend fun events like Art-a-Whirl, TC Pride Festival, and (of course)
+        the MN State Fair. I recently got to see both Hamilton and Book of Mormon at
+        the Orpheum Theatre. I performed in plays when I was younger, and still love to
+        watch plays!
+      <HamiltonImage />
+      </p>
     </div>
   </Layout>
 

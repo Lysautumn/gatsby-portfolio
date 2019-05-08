@@ -1,7 +1,7 @@
 // This component is the index/landing page of the site
 
 import React from 'react';
-import Image from "../components/image";
+import MainImage from "../components/main-image";
 import { Button } from '@material-ui/core';
 import { Link } from 'gatsby';
 import "../components/layout.css";
@@ -14,7 +14,7 @@ const styles = {
 const Index = () => (
   <div className="contentBox">
     <h1 className="mainTitle">Hey, I'm Ally</h1>
-    <Image />
+    <MainImage />
     <p className="mainBlurb">I build awesome things with code and teach others at Prime Digital Academy</p>
     <div className="buttonStorage">
       <Link className="mainButtons" to="/about"><Button style={styles.button} variant="contained">About</Button></Link>
