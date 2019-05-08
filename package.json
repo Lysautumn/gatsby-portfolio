@@ -5,7 +5,9 @@
   "version": "1.0.0",
   "author": "Ally Boyd <alyssaboyd85@gmail.com>",
   "dependencies": {
+    "@hapi/hapi": "^18.3.1",
     "@material-ui/core": "^3.9.3",
+    "core-js": "^2.6.5",
     "gatsby": "^2.0.107",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-manifest": "^2.0.16",

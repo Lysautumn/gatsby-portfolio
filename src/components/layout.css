@@ -1,5 +1,5 @@
 /* Google Font Import */
-@import url('https://fonts.googleapis.com/css?family=Cookie|Lato');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Lato|Source+Sans+Pro');
 
 /* Custom Styles */
 
@@ -16,7 +16,8 @@ body {
 }
 
 .icons {
-  vertical-align: -6%;
+  vertical-align: -10%;
+  color: rgb(66, 31, 102);
 }
 
 /* Landing Page */
@@ -107,6 +108,7 @@ body {
 /* Content Pages */
 .headers {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif; 
 }
 
 .contentSpacing {
@@ -115,6 +117,14 @@ body {
 }
 
 /* About Page */
+.aboutHeaders {
+  font-family: 'Cookie', cursive;
+  font-size: 38px;
+}
+
+.coffeeCup {
+  vertical-align: -8px;
+}
 
 /* Contact Page */
 .contactContent {
