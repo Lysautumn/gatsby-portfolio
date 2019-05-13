@@ -1,27 +1,11 @@
 // This component is for the contact page
 
-import React, { Component } from 'react';
+import React from 'react';
 import Layout from '../components/layout';
 import { FaEnvelope, FaLinkedinIn, FaGithub, FaTwitter, FaDribbble, FaGoodreads } from 'react-icons/fa';
 import { IconContext } from "react-icons";
-// import { TextField, Button } from '@material-ui/core';
 
-// const styles = {
-//   button: {
-//     marginTop: '10px',
-//   }
-// }
-
-class Contact extends Component {
-  state = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    message: '',
-  }
-
-  render() {
-    return (
+const Contact = () => (
       <Layout>
       <div className="contentSpacing">
         <h1 className="headers">Contact Me</h1>
@@ -31,7 +15,7 @@ class Contact extends Component {
         <div className="contactContent">
           <div className="contactCard">
             <p>Want to learn more?<br/>Let's start a conversation!</p>
-            <p className="contactItem"><IconContext.Provider value={{className: "icons"}}><FaEnvelope/></IconContext.Provider><a href="mailto:alyssaboyd85@gmail.com"> Email me</a> at alyssa.boyd85@gmail.com</p>
+            <p className="contactItem"><IconContext.Provider value={{className: "icons"}}><FaEnvelope/></IconContext.Provider><a href="mailto:alyssaboyd85@gmail.com"> Email me</a> <span className="emailAddress">alyssa.boyd85@gmail.com</span></p>
           </div>
           <div className="contactCard">
             <p>To see what I've been working on:</p>
@@ -53,8 +37,5 @@ class Contact extends Component {
         </div>
       </div>
     </Layout>
-    )
-  }
-}
-
+)
 export default Contact;

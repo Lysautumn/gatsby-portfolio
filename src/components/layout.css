@@ -28,7 +28,7 @@ body {
   height: 550px;
   margin: 50px auto;
   border-radius: 5px; 
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: 5px 8px 18px #888888;
 }
 
 .mainTitle {
@@ -162,7 +162,6 @@ body {
   padding: 15px;
   background-color: white;
   height: 150px;
-  border-radius: 3px;
   box-shadow: 5px 8px 18px #888888;
 }
 
@@ -180,12 +179,17 @@ body {
   font-weight: bold;
 }
 
+.emailAddress {
+  font-size: 14px;
+}
+
 /* Blog */
 .blogCard {
   width: 90%;
   box-shadow: 5px 8px 18px #888888;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .blogCardTitle {

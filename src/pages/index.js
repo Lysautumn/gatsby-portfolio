@@ -19,7 +19,7 @@ const Index = () => (
     <div className="buttonStorage">
       <Link className="mainButtons" to="/about"><Button style={styles.button} variant="contained">About</Button></Link>
       <Link className="mainButtons" to="/contact"><Button style={styles.button} variant="contained">Contact</Button></Link>
-      <Link className="mainButtons" to="/blog"><Button style={styles.button} variant="contained">Blog</Button></Link>
+      <Link className="mainButtons" to="/my-work"><Button style={styles.button} variant="contained">My Work</Button></Link>
     </div>
   </div>
 
