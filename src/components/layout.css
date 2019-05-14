@@ -183,6 +183,37 @@ body {
   font-size: 14px;
 }
 
+/* My Work Page */
+.workContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.workCard {
+  width: 300px;
+  box-shadow: 5px 8px 18px #888888;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.workCardTitle {
+  text-align: center;
+  font-size: 18px;
+}
+
+.workCardDescription {
+  font-size: 14px;
+}
+
+.workImage {
+  width: 225px;
+  margin: 0 auto;
+}
+
+
 /* Blog */
 .blogCard {
   width: 90%;
