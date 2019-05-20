@@ -1,5 +1,5 @@
 ---
-title: "100 Days of Code - Day 1"
+title: "100 Days of Code - Week 1, Part 1"
 date: "2019-04-13"
 excerpt: "Let me introduce myself and the 100 Days of Code"
 ---
@@ -14,7 +14,5 @@ Since I have been in my role for almost a year and a half, I have recently start
 
 That's where 100 Days of Code comes in. The 100 Days of Code challenge is to write code for at least one hour every day. It also asks you to tweet about what you're working on and encourage others. I'm using this 100 days to work on a couple projects and trying a few things out that have been on my To Do list (and yes, building a To Do list is on my To Do list!). I'm starting with GatsbyJS. This site has been built in Gatsby, and I am using it to programmatically create these blog posts from Markdown files! So cool!
 
-Today (actually yesterday, I am finishing this on 4/14), I spent my time writing some code to clean up my personal site. Somehow, in the excitement of writing code and working on something... I forgot to commit. It's funny to me when the good habits I work to instill in my students (commit often, take breaks, ask for help, etc) are the pitfalls I encounter as well. Luckily, I didn't lose any work!
-
-If you want to read more about my 100 Days of Code, or to join me, you can find me on Twitter [@allyautumnboyd](https://twitter.com/allyautumnboyd)
+Today, I spent my time writing some code to clean up my personal site. Somehow, in the excitement of writing code and working on something... I forgot to commit. It's funny to me when the good habits I work to instill in my students (commit often, take breaks, ask for help, etc) are the pitfalls I encounter as well. Luckily, I didn't lose any work!
 
