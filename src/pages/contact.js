@@ -15,7 +15,7 @@ const Contact = () => (
         <div className="contactContent">
           <div className="contactCard">
             <p>Want to learn more?<br/>Let's start a conversation!</p>
-            <p className="contactItem"><IconContext.Provider value={{className: "icons"}}><FaEnvelope/></IconContext.Provider><a href="mailto:alyssaboyd85@gmail.com"> Email me</a> <span className="emailAddress">alyssa.boyd85@gmail.com</span></p>
+            <p className="contactItem"><IconContext.Provider value={{className: "icons"}}><FaEnvelope/></IconContext.Provider><a href="mailto:allyboyd85@gmail.com"> Email me</a> <span className="emailAddress">allyboyd85@gmail.com</span></p>
           </div>
           <div className="contactCard">
             <p>To see what I've been working on:</p>
